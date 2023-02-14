@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(160deg, #348F50, #56B4D3);
+    font-family: 'Poppins', sans-serif;
+}
+
+.signup-form p {
+    font-size: 20px;
+    /* align-items: center; */
+    text-align: center;
+}
+
+.signup-form {
+    width: 30vw;
+    height: 75vh;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.container {
+    width: 25vw;
+    position: absolute;
+    top: 20%;
+    left: 37%;
+}
+
+.container input {
+    width: 100%;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 1px;
+    outline: none;
+    border: 2px solid gray;
+}
+
+.container input::placeholder {
+    font-size: 16px;
+}
+
+.button input {
+    background-color: #1183ca;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 1px;
+}
+
+.text p {
+    font-size: 15px;
+}
+
+.button-login button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    border-radius: 1px;
+    font-size: 18px;
+}
+
+.button-login .fb {
+    background-color: #3b5998;
+    color: white;
+
+   
+}
