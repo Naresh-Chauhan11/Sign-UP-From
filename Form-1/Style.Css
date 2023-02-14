@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +30,6 @@ body {
 }
 
 .container form {
-    /* border: 1px solid black; */
     margin: 10px 0px 0px 12%;
 }
 
